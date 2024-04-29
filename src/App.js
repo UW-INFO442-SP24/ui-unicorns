@@ -1,24 +1,23 @@
-import About from './components/Identify/identify.js';
-import Home from './components/Home/home.js';
-import Map from './components/Map/map.js';
-import Support from './components/Support/support.js';
+import React from 'react';
 import NavBar from './components/NavBar/navbar.js';
+import Home from './components/Home/home.js';
+import FindHelp from './components/FindHelp/findhelp.js';
+import Identify from './components/Identify/identify.js';
+import Connect from './components/Connect/connect.js';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-
-import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
-
-export default function App(props) {
-    return (
+export default function App() {
+  return (
+    <Router>
       <div>
-        <Router>
-          <Routes>
-          <Route path="/NavBar" element={<NavBar/>} />
-          <Route path="/Home" element={<Home/>} />
-          <Route path="/Map" element={<Map />} />
-          <Route path="/Identify" element={<Identify/>} />
-          <Route path="/Support" element={<Support/>} />
-          </Routes>
-        </Router> 
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/FindHelp" element={<FindHelp />} />
+          <Route path="/Identify" element={<Identify />} />
+          <Route path="/Connect" element={<Connect />} />
+        </Routes>
       </div>
-    );
-  }
+    </Router>
+  );
+}

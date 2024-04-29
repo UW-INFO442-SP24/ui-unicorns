@@ -1,0 +1,111 @@
+.find-help-container {
+    width: 1440px;
+    height: 749px;
+    position: relative;
+    background: white;
+    border: 3px solid;
+}
+
+.find-help-image {
+    width: 678px;
+    height: 749px;
+    position: absolute;
+    left: 762px;
+    top: 0;
+}
+
+.find-help-content {
+    width: 632px;
+    height: 593px;
+    position: absolute;
+    left: 76px;
+    top: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 139px;
+}
+
+.find-help-title {
+    width: 580px;
+    height: 64px;
+    text-align: center;
+    color: #05384B;
+    font-size: 60px;
+    font-family: Lora;
+    font-weight: 700;
+}
+
+.find-help-description {
+    width: 632px;
+    height: 326px;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.find-help-crisis-info {
+    color: #72172B;
+    font-size: 25px;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.find-help-crisis-info-underline {
+    text-decoration: underline;
+}
+
+.find-help-subtitle {
+    color: #000;
+    text-align: center;
+    font-family: Lora;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.find-help-resources {
+    display: flex;
+    padding: 25px 29px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 15px;
+    border: 1px solid #05384B;
+    background: #E5DED1;
+}
+
+.find-help-category{
+    color: #000;
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.find-help-accessibility {
+    width: 337px;
+    height: 203px;
+    border-radius: 15px;
+    border: 1px solid #05384B;
+    background: #E5DED1;
+}
+
+.accessibility-option {
+    border-radius: 20px;
+    border: 1px solid #EEE;
+    background: #FFF;
+}
+
+.clear-all-filters {
+    border-radius: 20px;
+    border: 2px solid #05384B;
+    background: #FFF;
+}
