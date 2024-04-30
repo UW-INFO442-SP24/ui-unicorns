@@ -5,7 +5,7 @@ export default function FindHelp(props) {
     return (
         // header section of the page
         <div className="find-help-container">
-            <img className="find-help-image" src="https://via.placeholder.com/678x749" alt="Placeholder" />
+            <img className="find-help-image" src="find-help.png"/>
             <div className="find-help-content">
                 <div className="find-help-title">Find Help in King County</div>
                 <div className="find-help-description">

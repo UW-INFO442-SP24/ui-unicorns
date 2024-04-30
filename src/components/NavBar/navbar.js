@@ -10,11 +10,7 @@ export default function Navbar(props) {
                 <div>Identify Abuse</div>
                 <div>Connect</div>
             </div>
-            <div className="menu-icon-container">
-                <div className="menu-icon">
-                    <div className="menu-icon-inner"></div>
-                </div>
-            </div>
+                <img className="menu-icon"src="/public/img/website-icon.png"/>
         </div>
     );
 }
