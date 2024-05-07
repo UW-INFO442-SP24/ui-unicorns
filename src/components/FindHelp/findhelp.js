@@ -5,7 +5,7 @@ export default function FindHelp(props) {
     return (
         // header section of the page
         <div className="find-help-container">
-            <img className="find-help-image" src="find-help.png"/>
+            <img className="find-help-image" src="/img/find-help.png"/>
             <div className="find-help-content">
                 <div className="find-help-title">Find Help in King County</div>
                 <div className="find-help-description">
@@ -74,11 +74,10 @@ export default function FindHelp(props) {
             </div>
 
             {/* placeholder map */}
-            <img className="find-help-map" src="https://via.placeholder.com/929x759" alt="Map" />
+            <img className="find-help-map" src="/img/placeholder-map.png" alt="placeholder map" />
 
             {/* Resources for Escaping */}
             <div className="find-help-subtitle">Resources for Escaping</div>
-
 
         </div>
     );

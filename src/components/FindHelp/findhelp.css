@@ -1,111 +1,95 @@
 .find-help-container {
-    width: 1440px;
-    height: 749px;
-    position: relative;
-    background: white;
-    border: 3px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
 }
 
 .find-help-image {
-    width: 678px;
-    height: 749px;
-    position: absolute;
-    left: 762px;
-    top: 0;
+    width: 25%;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 .find-help-content {
-    width: 632px;
-    height: 593px;
-    position: absolute;
-    left: 76px;
-    top: 96px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 139px;
+    max-width: 600px;
 }
 
 .find-help-title {
-    width: 580px;
-    height: 64px;
-    text-align: center;
-    color: #05384B;
-    font-size: 60px;
-    font-family: Lora;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .find-help-description {
-    width: 632px;
-    height: 326px;
-    text-align: center;
-    color: black;
-    font-size: 25px;
-    font-family: 'DM Sans';
-    font-weight: 400;
-    word-wrap: break-word;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
 }
 
 .find-help-crisis-info {
-    color: #72172B;
-    font-size: 25px;
-    font-family: 'DM Sans';
-    font-weight: 700;
-    word-wrap: break-word;
+    font-weight: bold;
+    color: #d9534f;
 }
 
 .find-help-crisis-info-underline {
     text-decoration: underline;
 }
 
-.find-help-subtitle {
-    color: #000;
-    text-align: center;
-    font-family: Lora;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-
-.find-help-resources {
+.find-help-section {
     display: flex;
-    padding: 25px 29px;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;
-    border-radius: 15px;
-    border: 1px solid #05384B;
-    background: #E5DED1;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
 }
 
-.find-help-category{
-    color: #000;
-    font-family: "DM Sans";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+.find-help-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
 }
 
-.find-help-accessibility {
-    width: 337px;
-    height: 203px;
-    border-radius: 15px;
-    border: 1px solid #05384B;
-    background: #E5DED1;
+.find-help-resources, .find-help-accessibility, .find-help-clear-filters {
+    width: 80%;
+    margin-bottom: 1rem;
 }
 
-.accessibility-option {
-    border-radius: 20px;
-    border: 1px solid #EEE;
-    background: #FFF;
+.find-help-category {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.resource-item, .accessibility-option, .clear-all-filters {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.resource-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #ddd; /* Placeholder for icons */
+    margin-right: 10px;
+    border-radius: 50%; /* Circular icons */
+}
+
+.resource-name, .accessibility-option {
+    font-size: 1rem;
+    color: #666;
 }
 
 .clear-all-filters {
-    border-radius: 20px;
-    border: 2px solid #05384B;
-    background: #FFF;
+    font-size: 1rem;
+    color: #d9534f;
+    font-weight: bold;
+}
+
+.find-help-map {
+    width: 50%;
+    height: auto;
+    margin-top: 1rem;
 }
