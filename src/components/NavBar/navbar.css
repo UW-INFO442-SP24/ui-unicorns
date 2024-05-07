@@ -1,36 +1,29 @@
-.navbar-container {
-    width: 100%;
-    height: 82px;
-    position: relative;
-    background-color: #E5DED1;
+ .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #E5DED1; /* Light-colored background */
 }
 
 .navbar-links {
     display: flex;
-    justify-content: left;
-    align-items: center;
-    gap: 30px;
-    margin-left: 20px;
+    gap: 20px; /* Space between links */
 }
 
 .navbar-links div {
-    color: black;
-    font-size: 18px;
-    font-family: 'DM Sans';
-    font-weight: 400;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Dark text color for contrast */
+    padding: 5px 10px;
+    transition: background-color 0.3s;
 }
 
-.navbar-links .highlighted {
-    font-weight: 700;
-    text-decoration: underline;
+.navbar-links div:hover {
+    background-color: #ddd; /* Lighter background on hover */
 }
 
 .menu-icon {
-    width: 42px;
-    height: 42px;
-    background-color: white;
-    border: 2px solid #05384B;
-    display: flex;
-    justify-content: right;
+    width: 30px; /* Size of the menu icon */
+    height: auto;
 }
-
