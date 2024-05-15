@@ -1,0 +1,108 @@
+body {
+    font-family: 'Lora';
+}
+
+h1 {
+    font-weight: bold;
+    border: 4px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+h2 {
+    color: #72172B;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.IdentifyVideo {
+    border: 15px solid #05384B;
+    border-radius: 10px; 
+    padding: 10px;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.Physical {
+    background-color: #E9E8E6;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 1000px;
+}
+
+.Verbal {
+    background-color: #E9E8E6;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 1000px;
+}
+
+.Sexual {
+    background-color: #E9E8E6;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 1000px;
+}
+
+.Stalking {
+    background-color: #E9E8E6;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 1000px;
+}
+
+.Spiritual {
+    background-color: #E9E8E6;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 1000px;
+}
+
+.Financial {
+    background-color: #E9E8E6;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 1000px;
+}
+
+.IdentifyButtons {
+    display: flex;
+    gap: 50px;
+    padding: 15px;
+    margin-left: auto;
+}
+
+.IdentifyButton {
+    padding: 10px 20px;
+    background-color: #72172B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.IdentifyButton:hover {
+    background-color: #5A1020;
+}
+
+.IdentifyButton a, 
+.IdentifyButton a:visited, 
+.IdentifyButton a:hover, 
+.IdentifyButton a:active { 
+    color: #fff; 
+}
