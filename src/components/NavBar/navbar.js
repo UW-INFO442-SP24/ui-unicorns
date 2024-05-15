@@ -1,5 +1,6 @@
 import React from 'react';
 import './navbar.css';
+import { Link } from 'react-router-dom';
 
 export default function Navbar(props) {
     return (
@@ -7,10 +8,10 @@ export default function Navbar(props) {
             <img className="menu-icon"src="/img/website-icon.png"/>
 
             <div className="navbar-links">
-                <div>Home</div>
-                <div>Find Help</div>
-                <div>Identify Abuse</div>
-                <div>Connect</div>
+                <Link to="/home">Home</Link>
+                <Link to="/findhelp">Find Help</Link>
+                <Link to="/identify">Identify Abuse</Link>
+                <Link to="/connect">Connect</Link>
             </div>
         </div>
     );
