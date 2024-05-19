@@ -37,59 +37,114 @@
     text-decoration: underline;
 }
 
-.find-help-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    background-color: #f9f9f9;
-}
-
-.find-help-subtitle {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    color: #333;
-}
-
-.find-help-resources, .find-help-accessibility, .find-help-clear-filters {
-    width: 80%;
-    margin-bottom: 1rem;
-}
-
-.find-help-category {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-    color: #555;
-}
-
-.resource-item, .accessibility-option, .clear-all-filters {
-    display: flex;
-    align-items: center;
-    margin-bottom: 0.5rem;
-    cursor: pointer; /* Pointer cursor on hover */
-}
-
-.resource-icon {
-    width: 30px;
-    height: 30px;
-    background-color: #ddd; /* Placeholder for icons */
-    margin-right: 10px;
-    border-radius: 50%; /* Circular icons */
-}
-
-.resource-name, .accessibility-option {
-    font-size: 1rem;
-    color: #666;
-}
-
-.clear-all-filters {
-    font-size: 1rem;
-    color: #d9534f;
+.card-title {
+    font-size: 20px;
     font-weight: bold;
 }
 
-.find-help-map {
-    width: 50%;
-    height: auto;
-    margin-top: 1rem;
+.row {
+    width: 100%;
+}
+
+.column {
+    float: left;
+    background-color: #E9E6E2;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+.left {
+    width: 27%;
+    margin-left: 3%;
+}
+
+.right {
+    width: 67%;
+    margin-right: 3%;
+}
+
+.btn {
+    font-size: medium;
+    background-color: #B5A4A3;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    border: none;
+    color: black;
+}
+
+.pressed {
+    background-color: #FF9A62;
+}
+
+.btn:hover {
+    background-color: #FF9A62;
+}
+
+.left .map {
+    margin-bottom: 15px;
+    border-radius: 0.75rem;
+    outline: 1px solid #B5A4A3;
+    background-color: #eadddc;
+}
+
+.right .map {
+    margin-bottom: 40px;
+    border-radius: 0.75rem;
+    outline: 1px solid #535E4B;
+    border: 20px solid #C1C2AD;
+}
+
+.form-check {
+    margin-bottom: 1rem;
+}
+
+.form-check label {
+    /* margin-left: 0.5rem; */
+    margin-top: 0.25rem;
+}
+
+.marker-card h1 {
+    font-size: 28px;
+    color: #535E4B;
+    margin-bottom: 1rem;
+}
+
+.marker-card img {
+    height: 200px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid #FF9A62;
+}
+
+.marker-card h2 {
+    font-family: 'Noto Serif Display', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #535E4B;
+}
+
+.marker-card p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.marker-card li {
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+/* On screens that are 430px wide or less, make the columns stack on top of each other */
+@media screen and (max-width: 600px) {
+    .left {
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .right {
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 25px;
+    }
 }
