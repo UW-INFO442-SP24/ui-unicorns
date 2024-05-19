@@ -30,7 +30,7 @@
 
 .find-help-crisis-info {
     font-weight: bold;
-    color: #d9534f;
+    color: #72162b;
 }
 
 .find-help-crisis-info-underline {
@@ -49,7 +49,7 @@
 .column {
     float: left;
     background-color: #E9E6E2;
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .left {
@@ -64,33 +64,35 @@
 
 .btn {
     font-size: medium;
-    background-color: #B5A4A3;
+    background-color: #72162b;
     margin-top: 0.5rem;
     margin-right: 1rem;
     border: none;
-    color: black;
+    color: white;
 }
 
 .pressed {
-    background-color: #FF9A62;
+    background-color: #05384B;
+    color: white;
 }
 
 .btn:hover {
-    background-color: #FF9A62;
+    background-color: #05384B;
+    color: white;
 }
 
 .left .map {
     margin-bottom: 15px;
     border-radius: 0.75rem;
     outline: 1px solid #B5A4A3;
-    background-color: #eadddc;
+    background-color: #e5ded2;
 }
 
 .right .map {
     margin-bottom: 40px;
     border-radius: 0.75rem;
-    outline: 1px solid #535E4B;
-    border: 20px solid #C1C2AD;
+    outline: 1px solid 5384B;
+    border: 20px solid #05384B;
 }
 
 .form-check {
@@ -130,7 +132,7 @@
 }
 
 .marker-card li {
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "DM Sans", sans-serif;
 }
 
 /* On screens that are 430px wide or less, make the columns stack on top of each other */
