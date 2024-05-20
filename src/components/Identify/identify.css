@@ -1,15 +1,15 @@
-body, h2, h1, p {
-    font-family: 'Arial' !important;
+.Identify body, h2, h1, p {
+    font-family: 'Arial';
 }
 
-h1 {
+.Identify h1 {
     font-weight: bold;
     border: 4px;
     padding: 20px;
     font-size: 35px;
 }
 
-h2 {
+.Identify h2 {
     color: #72172B;
     font-weight: bold;
     font-size: 25px;

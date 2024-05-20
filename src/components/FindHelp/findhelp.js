@@ -360,7 +360,7 @@ function MapAccessibility(props) {
     return (
         <div className="card map">
             <div className="card-body">
-                <h2 className="card-title">Accessibility</h2>
+                <h2 className="card-title">Filter by Accessibility Needs</h2>
                 <button
                     type="button"
                     className={`btn btn-info btn-lg map-btn ${activeButton === 'Mobility' ? 'pressed' : ''}`}
@@ -428,7 +428,7 @@ function MapResourceType(props) {
     return (
         <div className="card map">
             <div className="card-body">
-                <h2 className="card-title">Resource Type</h2>
+                <h2 className="card-title">Type of Resource</h2>
                 {Object.keys(checkedState).map((resourceType) => (
                     <ResourceTypeButton
                         key={resourceType}
@@ -590,28 +590,28 @@ export default function FindHelp(props) {
 
     return (
         <div className="find-help-container">
-            <img className="find-help-image" src="/img/find-help.png" alt="Find Help" />
-            <div className="find-help-content">
-                <div className="find-help-title">Find Help in King County</div>
-                <div className="find-help-description">
-                    <span>
-                        Explore resources on an interactive map to connect with support services near you. Watch videos
-                        and read articles for additional guidance and empowerment.
-                    </span>
-                    <br />
-                    <br />
-                    <span className="find-help-crisis-info">In crisis? Get immediate help:</span>
-                    <br />
-                    <br />
-                    <span className="find-help-crisis-info">National Domestic Violence Hotline: </span>
-                    <span className="find-help-crisis-info-underline">1-800-799-7233</span>
-                    <br />
-                    <span className="find-help-crisis-info">King County Domestic Violence Hotline: </span>
-                    <span className="find-help-crisis-info-underline">1-877-737-0242</span>
-                </div>
+            <div class="hero">
+            <div class="hero-text">
+                <h1>Find Help in King County</h1>
+                <p>Explore resources on an interactive map to connect with support services near you. Watch videos
+                        and read articles for additional guidance and empowerment.</p>
             </div>
-
+            <img className="find-help-image" src="/img/find-help.png" alt="Find Help" />
+            </div>
+            <br />
+            <div className="find-help-description">
+                <span className="find-help-crisis-info">In crisis? Get immediate help:</span>
+                <br />
+                <span className="find-help-crisis-info">National Domestic Violence Hotline: </span>
+                <span className="find-help-crisis-info-underline">1-800-799-7233</span>
+                <br />
+                <span className="find-help-crisis-info">King County Domestic Violence Hotline: </span>
+                <span className="find-help-crisis-info-underline">1-877-737-0242</span>
+            </div>
+            <br />
+            
             <div className="row">
+                <h1 class="map-title"> Locate Resources in King County </h1>
                 <MapColumnLeft
                     setAccessibility={setAccessibility}
                     setResourceType={setResourceType}

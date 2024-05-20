@@ -1,3 +1,13 @@
+.find-help-image {
+    width: 50%; 
+    height: auto;
+    opacity: 1; 
+}
+  
+.find-help-text {
+    width: 50%; 
+}
+
 .find-help-container {
     display: flex;
     flex-direction: column;
@@ -6,39 +16,32 @@
     padding: 20px;
 }
 
-.find-help-image {
-    width: 25%;
-    height: auto;
-    margin-bottom: 20px;
-}
-
-.find-help-content {
-    max-width: 600px;
-}
-
-.find-help-title {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
 .find-help-description {
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #333;
+    background-color: #72162b;
 }
 
 .find-help-crisis-info {
+    font-size: 2rem;
     font-weight: bold;
-    color: #72162b;
+    color: white;
 }
 
 .find-help-crisis-info-underline {
     text-decoration: underline;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.map-title {
+    font-family: 'Lora', serif;
+    font-size: 2.5rem;
+    color: #05384B;
+    font-weight: bold;
 }
 
 .card-title {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -48,8 +51,8 @@
 
 .column {
     float: left;
-    background-color: #E9E6E2;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
 }
 
 .left {
@@ -63,7 +66,7 @@
 }
 
 .btn {
-    font-size: medium;
+    font-size: 18px;
     background-color: #72162b;
     margin-top: 0.5rem;
     margin-right: 1rem;
@@ -100,39 +103,32 @@
 }
 
 .form-check label {
-    /* margin-left: 0.5rem; */
+    margin-left: 0rem;
     margin-top: 0.25rem;
 }
 
 .marker-card h1 {
+    font-family: 'Lora', serif;
     font-size: 28px;
-    color: #535E4B;
-    margin-bottom: 1rem;
-}
-
-.marker-card img {
-    height: 200px;
-    width: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 4px solid #FF9A62;
+    color: #05384B;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
 }
 
 .marker-card h2 {
-    font-family: 'Noto Serif Display', Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-weight: bold;
     font-size: 20px;
-    color: #535E4B;
+    color: #05384B;
 }
 
 .marker-card p {
     font-size: 15px;
-    text-align: center;
 }
 
 .marker-card li {
-    font-family: "DM Sans", sans-serif;
+    font-family: "Arial", sans-serif;
+    font-size: 15px;
 }
 
 /* On screens that are 430px wide or less, make the columns stack on top of each other */
