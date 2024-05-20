@@ -1,3 +1,13 @@
+.find-help-image {
+    width: 50%; 
+    height: auto;
+    opacity: 1; 
+}
+  
+.find-help-text {
+    width: 50%; 
+}
+
 .find-help-container {
     display: flex;
     flex-direction: column;
@@ -6,90 +16,133 @@
     padding: 20px;
 }
 
-.find-help-image {
-    width: 25%;
-    height: auto;
-    margin-bottom: 20px;
-}
-
-.find-help-content {
-    max-width: 600px;
-}
-
-.find-help-title {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
 .find-help-description {
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #333;
+    background-color: #72162b;
 }
 
 .find-help-crisis-info {
+    font-size: 2rem;
     font-weight: bold;
-    color: #d9534f;
+    color: white;
 }
 
 .find-help-crisis-info-underline {
     text-decoration: underline;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
 }
 
-.find-help-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    background-color: #f9f9f9;
-}
-
-.find-help-subtitle {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    color: #333;
-}
-
-.find-help-resources, .find-help-accessibility, .find-help-clear-filters {
-    width: 80%;
-    margin-bottom: 1rem;
-}
-
-.find-help-category {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-    color: #555;
-}
-
-.resource-item, .accessibility-option, .clear-all-filters {
-    display: flex;
-    align-items: center;
-    margin-bottom: 0.5rem;
-    cursor: pointer; /* Pointer cursor on hover */
-}
-
-.resource-icon {
-    width: 30px;
-    height: 30px;
-    background-color: #ddd; /* Placeholder for icons */
-    margin-right: 10px;
-    border-radius: 50%; /* Circular icons */
-}
-
-.resource-name, .accessibility-option {
-    font-size: 1rem;
-    color: #666;
-}
-
-.clear-all-filters {
-    font-size: 1rem;
-    color: #d9534f;
+.map-title {
+    font-family: 'Lora', serif;
+    font-size: 2.5rem;
+    color: #05384B;
     font-weight: bold;
 }
 
-.find-help-map {
-    width: 50%;
-    height: auto;
-    margin-top: 1rem;
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.row {
+    width: 100%;
+}
+
+.column {
+    float: left;
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+}
+
+.left {
+    width: 27%;
+    margin-left: 3%;
+}
+
+.right {
+    width: 67%;
+    margin-right: 3%;
+}
+
+.btn {
+    font-size: 18px;
+    background-color: #72162b;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    border: none;
+    color: white;
+}
+
+.pressed {
+    background-color: #05384B;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #05384B;
+    color: white;
+}
+
+.left .map {
+    margin-bottom: 15px;
+    border-radius: 0.75rem;
+    outline: 1px solid #B5A4A3;
+    background-color: #e5ded2;
+}
+
+.right .map {
+    margin-bottom: 40px;
+    border-radius: 0.75rem;
+    outline: 1px solid 5384B;
+    border: 20px solid #05384B;
+}
+
+.form-check {
+    margin-bottom: 1rem;
+}
+
+.form-check label {
+    margin-left: 0rem;
+    margin-top: 0.25rem;
+}
+
+.marker-card h1 {
+    font-family: 'Lora', serif;
+    font-size: 28px;
+    color: #05384B;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.marker-card h2 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #05384B;
+}
+
+.marker-card p {
+    font-size: 15px;
+}
+
+.marker-card li {
+    font-family: "Arial", sans-serif;
+    font-size: 15px;
+}
+
+/* On screens that are 430px wide or less, make the columns stack on top of each other */
+@media screen and (max-width: 600px) {
+    .left {
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .right {
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 25px;
+    }
 }

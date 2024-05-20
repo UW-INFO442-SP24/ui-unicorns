@@ -3,36 +3,39 @@ import './connect.css';
 
 export default function Connect(props) {
   return(
-    <div class="container">
-      <div>
-        {/* hero */}
+  <div class="container">
+    <div class="hero">
+      <div class="hero-text">
+        <h1>Supports start here</h1>
+        <p>Connect with other people who face similar challenges</p>
       </div>
+      <img src="/img/hands.jpeg" alt="Support group hands together" class="hero-image"/>
+    </div>
 
       <div>
-        <header>Stories</header>
+        <header>Shared Experiences</header>
         <p class="s-intro">
-          Read personal experiences of resilience and hope from those who have faced domestic
-          violence. These stories illuminate the path to safety and healing.
+        This space is dedicated to the voices of those who have encountered domestic violence. Here, you can both share your own story and read about the journeys of others towards safety and healing. Use the form provided to submit your experience—choose to remain anonymous if you prefer. Each month, we highlight two powerful stories from our community on the bulletin board, each with an external link for further resources. Your story matters, and together, we can illuminate the path to recovery and empowerment.
         </p>
 
         <div class="board row align-items-center text-center">
           <div class="col">
             <div class="story">
               <div class="pin">
-                {/* circle */}
               </div>
-              <div>
+              <a href="https://www.womenagainstabuse.org/stories/jamies-story#:~:text=For%20six%20and%20a%20half,safety%2C%20happiness%2C%20and%20security." className="story-link">
                 <p>Jamie's story, a victim of domestic violence</p>
-              </div>
+              </a>
             </div>
           </div>
 
           <div class="col">
             <div class="story">
               <div class="pin">
-                {/* circle */}
               </div>
-              <p>To Hell and Back: A survivor's story of Ricci Gay</p>
+              <a href="/ricci-gay-story" className="story-link">
+                <p>To Hell and Back: A survivor's story of Ricci Gay</p>
+              </a>
             </div>
           </div>
         </div>
@@ -58,7 +61,9 @@ export default function Connect(props) {
               </p>
             </div>
             <div class="join">
-              <button class="learn">Learn More</button>
+              <button class="learn">
+                <a href="https://newbegin.org/" className="learn">Learn More</a>
+              </button>
             </div>
           </div>
 
@@ -72,7 +77,9 @@ export default function Connect(props) {
               </p>
             </div>
             <div class="join">
-              <button class="learn">Learn More</button>
+              <button class="learn">
+                <a href="https://www.apichaya.org/" className="learn">Learn More</a>
+              </button>
             </div>
           </div>
 
@@ -85,7 +92,9 @@ export default function Connect(props) {
               </p>
             </div>
             <div class="join">
-              <button class="learn">Learn More</button>
+              <button class="learn">
+                <a href="https://www.dawnrising.org/" className="learn">Learn More</a>
+              </button>
             </div>
           </div>
         </div>
