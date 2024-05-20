@@ -1,5 +1,8 @@
-.Identify body, h2, h1, p {
-    font-family: 'Arial';
+.Identify body,
+h2,
+h1,
+p {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .Identify h1 {
@@ -17,7 +20,7 @@
 
 .IdentifyVideo {
     border: 15px solid #05384B;
-    border-radius: 10px; 
+    border-radius: 10px;
     padding: 10px;
     margin: 0 auto;
     width: fit-content;
@@ -100,11 +103,11 @@
     background-color: #5A1020;
 }
 
-.IdentifyButton a, 
-.IdentifyButton a:visited, 
-.IdentifyButton a:hover, 
-.IdentifyButton a:active { 
-    color: #fff; 
+.IdentifyButton a,
+.IdentifyButton a:visited,
+.IdentifyButton a:hover,
+.IdentifyButton a:active {
+    color: #fff;
 }
 
 .BoxButton {
@@ -114,4 +117,21 @@
     border-radius: 5px;
     margin: 20px auto;
     width: 1000px;
+}
+
+.IdentifyButtons,
+.Physical,
+.Verbal,
+.Sexual,
+.Stalking,
+.Financial,
+.Spiritual,
+.IdentifyButton p,
+.Physical p,
+.Verbal p,
+.Sexual p,
+.Stalking p,
+.Financial p,
+.Spiritual p {
+    font-family: 'Montserrat', sans-serif;
 }

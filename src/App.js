@@ -13,10 +13,11 @@ export default function App() {
       <div>
         <NavBar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/FindHelp" element={<FindHelp />} />
-          <Route path="/Identify" element={<Identify />} />
-          <Route path="/Connect" element={<Connect />} />
+          <Route path="" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/findhelp" element={<FindHelp />} />
+          <Route path="/identify" element={<Identify />} />
+          <Route path="/connect" element={<Connect />} />
           <Route path="/identifyexamples" element={<IdentifyExamples />} />
         </Routes>
       </div>

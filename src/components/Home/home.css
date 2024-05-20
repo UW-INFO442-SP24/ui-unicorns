@@ -54,7 +54,7 @@
 
 .resource-description {
     color: #000;
-    font: 600 24px Montserrat, sans-serif;
+    font: 600 24px 'Montserrat', sans-serif;
 }
 
 .resource-action {
@@ -189,6 +189,7 @@
     text-align: center;
     color: #fff;
     font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header-first,
@@ -206,6 +207,7 @@
 .text-second,
 .text-third {
     margin-top: 20px;
+    font-family: 'Montserrat';
 }
 
 .btn-first,
@@ -246,9 +248,10 @@
 .footer-heading {
     color: #72172B;
     font-size: 32px;
-    font-family: 'Lora';
+    font-family: 'Montserrat';
     font-weight: 600;
-    word-wrap: break-word
+    word-wrap: break-word;
+    margin-left: 20px;
 }
 
 .footer-text {
@@ -262,6 +265,7 @@
     flex-shrink: 0;
     align-self: center;
     margin-left: 20px;
+    margin-top: 30px;
 }
 
 .footer-image {
@@ -288,7 +292,7 @@
 .alert-text-third {
     color: #000;
     text-align: center;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;

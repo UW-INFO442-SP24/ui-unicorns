@@ -1,23 +1,23 @@
 .hero {
   display: flex;
-  align-items: center; 
-  justify-content: space-between; 
-  text-align: left; 
-  color: black; 
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  color: black;
 }
 
 .hero-image {
-  width: 50%; 
+  width: 50%;
   height: auto;
-  opacity: 1; 
+  opacity: 1;
 }
 
 .hero-text {
-  width: 50%; 
+  width: 50%;
 }
 
 .hero h1 {
-  font-family: "Lora", serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 40px;
   color: #05384B;
   font-weight: bold;
@@ -39,12 +39,12 @@ header {
   font-weight: 700;
   line-height: normal;
 }
-  
+
 .s-intro {
   font-size: 20px;
 }
 
-p, 
+p,
 .s-intro,
 .button-learn {
   font-family: "Arial", sans-serif;
@@ -73,7 +73,7 @@ p {
 }
 
 h2 {
-  font-family: "Arial", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .board {
@@ -100,7 +100,7 @@ h2 {
   background-color: white;
   margin: auto;
   width: 269.042px;
-  height:239px;
+  height: 239px;
 }
 
 .pin {
@@ -112,7 +112,7 @@ h2 {
   width: 30px;
   background-color: rgb(200, 108, 93);
 }
-  
+
 .share {
   align-self: center;
 }
@@ -165,14 +165,14 @@ h2 {
   height: 170px;
 }
 
-.group-info{
+.group-info {
   margin-left: 50px;
   width: 60%;
   align-self: center;
 }
 
 .groups h2 {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 23px;
   font-style: normal;
   font-weight: 600;
@@ -188,11 +188,11 @@ h2 {
 .learn {
   border-radius: 17px;
   border: none;
-  font-family: "Arial", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
-  line-height: 113.836%; 
+  line-height: 113.836%;
   letter-spacing: 0.7px;
   width: 213px;
   height: 42px;
@@ -207,7 +207,21 @@ a {
   text-decoration: none;
 }
 
-.hero-text h1,
-.hero-text p {
-  font-family: 'Lora' !important;
+.hero-text header,
+.hero-text p,
+.s-heading,
+.s-intro,
+.story,
+.but,
+.section3,
+.group-info, .s-heading header, .section3 header  {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.s-heading header, .section3 header {
+  color: #05384B;
+}
+
+.hero-text header {
+  color: #72172B;
 }
