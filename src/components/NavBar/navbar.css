@@ -1,6 +1,7 @@
  .navbar-container {
     display: flex;
     justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
     align-items: center;
     padding: 10px 50px;
     background-color: #E5DED1; /* Light-colored background */
@@ -13,7 +14,7 @@
 
 .navbar-links div {
     cursor: pointer;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #333; /* Dark text color for contrast */
     padding: 5px 10px;
     transition: background-color 0.3s;

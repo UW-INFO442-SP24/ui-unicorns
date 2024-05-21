@@ -67,7 +67,11 @@ export default function Home(props) {
                         <div class="content-box">
                             <h2 class="header-first">Is your relationship safe?</h2>
                             <p class="text-first"> Learn about domestic violence with statistics, expert insights and stories of survival. Explore resources on recognizing if you're experiencing abuse. </p>
-                            <button class="btn-first" tabindex="0">Find Resources</button>
+
+                            {/* Learn More button links to identify page */}
+                            <a href='/identify'>
+                            <button class="btn-first" tabindex="0">Learn More</button>
+                            </a>
                         </div>
                     </article>
 
@@ -76,7 +80,11 @@ export default function Home(props) {
                         <div class="content-box-second">
                             <h2 class="header-second">Need help finding local support groups?</h2>
                             <p class="text-second"> Search for confidential support groups in Seattle. These groups offer a safe space to connect with others who understand what you're going through. <br /><br /><br /> </p>
+                           
+                           {/* Find Support button links to connect page */}
+                           <a href='/connect'>
                             <button class="btn-second" tabindex="0">Find Support</button>
+                            </a>
                         </div>
                     </article>
 
@@ -86,9 +94,15 @@ export default function Home(props) {
                             <h2 class="header-third"> Support Others</h2>
                             <p class="text-third"> Learn more about how to help those experiencing abuse.
                                 Choose the best way for you to support victims and survivors of domestic violence. </p>
+
+                            {/* Get Started Here button links to external support pages */}
+                            <a href='https://www.thehotline.org/support-others/ways-to-support-a-domestic-violence-survivor/'>
                             <button class="btn-third" tabindex="0">Get Started Here</button>
+                            </a>
+
                         </div>
                     </article>
+                    
                 </div>
 
                 <br />
@@ -100,6 +114,7 @@ export default function Home(props) {
             <br />
             <br />
             
+            {/* Footer section of website */}
             <section className='home-footer'>
                 <div className="footer-content">
                     <h1 className='footer-heading'>Seattle Safe Haven: Your Path to Safety and Healing</h1>
