@@ -15,7 +15,7 @@ export default function Connect(props) {
       <div>
         <header>Shared Experiences</header>
         <p class="s-intro">
-        This space is dedicated to the voices of those who have encountered domestic violence. Here, you can both share your own story and read about the journeys of others towards safety and healing. Use the form provided to submit your experience—choose to remain anonymous if you prefer. Each month, we highlight two powerful stories from our community on the bulletin board, each with an external link for further resources. Your story matters, and together, we can illuminate the path to recovery and empowerment.
+        This space is dedicated to the voices of those who have encountered domestic violence. Here, you can both share your own story and read about the journeys of others towards safety and healing. Use the form provided in the 'Share your story' button to submit your experience—choose to remain anonymous. Each month, we highlight two powerful stories from our community on the bulletin board, each with an external link for further resources. Your story matters, and together, we can illuminate the path to recovery and empowerment.
         </p>
 
         <div class="board row align-items-center text-center">
@@ -33,7 +33,7 @@ export default function Connect(props) {
             <div class="story">
               <div class="pin">
               </div>
-              <a href="/ricci-gay-story" className="story-link">
+              <a href="https://www.seattle.gov/cityattorney/crime-victim-assistance/domestic-violence-help/to-hell-and-back-a-survivors-story#:~:text=Editor's%20Note%3A%20Ricci%20Gay%20tells,a%20much%20safer%20life%20now." className="story-link">
                 <p>To Hell and Back: A survivor's story of Ricci Gay</p>
               </a>
             </div>
@@ -41,7 +41,9 @@ export default function Connect(props) {
         </div>
 
         <div class="but-con">
+        <a href="https://forms.gle/oDdQjj5kq5pr69oA6" className="but-con-link">
           <button class="but">Share your story</button>
+          </a>
         </div>
       </div>
 
