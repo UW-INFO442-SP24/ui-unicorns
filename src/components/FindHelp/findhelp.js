@@ -622,8 +622,6 @@ export default function FindHelp(props) {
                 />
                 <MapColumnRight displayResources={displayResources} />
             </div>
-
-            <div className="find-help-subtitle">Resources for Escaping</div>
         </div>
     );
 }
