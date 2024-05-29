@@ -4,6 +4,7 @@ import './identify.css';
 
 export default function Identify(props) {
     return (
+    <div className='identify-abuse-page'>
         <div className='Identify'>
             <div className='IdentifyTitle'>
                 <h1>Identify Abuse</h1>
@@ -50,13 +51,15 @@ export default function Identify(props) {
                 <p><b>Stalking</b> occurs when someone watches, follows, or harasses you repeatedly, making you feel afraid or unsafe, and may occur from someone you know, a past partner, or a stranger. This can include different types of abuse. <b>Cyberstalking</b> is the use of technology and the Internet to bully, harass, stalk, intimidate, or control a partner. This behavior is often a form of verbal or emotional abuse conducted online.</p>
             </div>
             <div className='Financial'>
-                <h2>Finacial Abuse</h2>
+                <h2>Financial Abuse</h2>
                 <p>Occurs when an abusive partner extends their power and control into your financial situation.</p>
             </div>
             <div className='Spiritual'>
                 <h2>Spiritual Abuse</h2>
                 <p>When someone uses someone else's spiritual beliefs to control, dominate, or hurt them.</p>
             </div>
+        </div>
+
         </div>
     )
 }

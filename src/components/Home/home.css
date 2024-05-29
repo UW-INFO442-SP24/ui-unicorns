@@ -217,6 +217,7 @@
 .text-third {
     margin-top: 20px;
     font-family: 'Montserrat', sans-serif;
+    color: white;
 }
 
 .btn-first,
@@ -234,7 +235,7 @@
     flex-grow: 1;
 
 }
-
+/* Responsiveness for resource section in home page */
 @media (max-width: 991px) {
     .btn-first,
     .btn-second,

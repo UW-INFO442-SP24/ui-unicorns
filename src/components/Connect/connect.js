@@ -48,7 +48,7 @@ export default function Connect(props) {
       </div>
 
       <div class="section3">
-        <header>Seattle Support Group</header>
+        <header>Seattle Support Groups</header>
         <p class="s-intro">
             Connect with Seattle's community support groups offering guidance, shared experiences, and a healing space. Click to find the right group for you.
         </p>
