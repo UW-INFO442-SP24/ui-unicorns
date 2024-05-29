@@ -11,8 +11,6 @@ Manual test:
 Automated test:
 
 Use JavaScript to assert if the map’s properties and functionalities are correct.
-Jest or React testing library script to check the outputs with incorrect input
-Explanation of Homepage.test.js
 
 ## Unit Tests
 
