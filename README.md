@@ -6,7 +6,7 @@ The published site can be viewed here: https://ui-unicorns-b9qu.onrender.com/
 
 Domestic violence is a pervasive issue impacting countless lives in King County. Fear, isolation, and lack of resources often trap victims in harmful situations. Our solution bridges this gap by creating a safe, confidential online space and connecting domestic violence victims to essential services in King County to build a safe and healing future. We achieve this by connecting individuals to essential resources, including shelters, medical care, and food banks. Our website provides a safe space to connect with confidential support groups and access educational resources to understand domestic violence, recognize the signs of abuse, and learn how to support survivors.
 
-**Problem Statement**: _How can we best support victims of domestic violence within the greater Seattle area with safe, accessible resources for shelter, food, legal aid, and emotional support?__
+**Problem Statement**: _How can we best support victims of domestic violence within the greater Seattle area with safe, accessible resources for shelter, food, legal aid, and emotional support?_
 
 ## Website Features
 
