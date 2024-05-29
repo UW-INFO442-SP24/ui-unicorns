@@ -113,7 +113,7 @@ This test verifies that the map filter functions correctly when both category an
 
 **6. Clear Filters**
 
-This test verifies that the "Clear All" button on the map filter functions correctly.
+This test verifies that the "Clear" button on the map filter functions correctly.
 
 **Input:**
 
