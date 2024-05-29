@@ -165,3 +165,35 @@ This test verifies that the map filter functions correctly when a valid category
 
 * The map markers should only represent shelters.
 * No markers from other categories (legal aid, medical care, etc.) should be displayed.
+
+##  Known Bugs and Solutions
+
+### Bug #1: Intermittent 502 Bad Gateway Error (Mobile & Desktop)
+
+**Description:** Users occasionally encounter a 502 Bad Gateway error message when trying to access the Seattle Safe Haven website, on both mobile and desktop devices. 
+
+**Workarounds for Users:**
+* Try reloading the page: A simple refresh can often resolve the issue. Click the reload button in your browser (usually a circular arrow icon) or press F5 on your keyboard.
+* Leave and come back: Sometimes exiting the website and returning can establish a new connection and clear any temporary glitches.
+
+**Long-Term Solutions (In Progress):**
+* Implement a retry mechanism: We're working on programming the website to automatically retry loading the page after a brief delay (a few seconds) if a 502 error occurs initially. This can often resolve temporary server issues.
+* Monitor server health: We hope to implement website monitoring tools to proactively identify and address server-side issues that might contribute to 502 errors.
+
+### Bug #2: Mobile Responsiveness Issues
+
+**Description:** Users on mobile devices may encounter issues with the website's responsiveness, impacting navigation and accessibility.
+
+* Exit Button Relocation: The discreet exit button, crucial for user safety, might unintentionally shift location on some mobile screens, potentially making it difficult to find quickly.
+* Zooming Requirement: Users might need to frequently zoom in and out to access different website sections or read text comfortably, hindering a smooth browsing experience.
+
+**Workarounds for Users:**
+
+* Exit Button: If the exit button is difficult to locate, try scrolling to the bottom or top of the page. 
+* Zooming: Utilize pinch-to-zoom gestures to enlarge specific areas and improve readability. Use the zoom-out feature to view the whole screen.
+  
+**Long-Term Solutions (In Progress):**
+
+* Responsive Design Refinement: We hope to refine the website's responsive design to ensure consistent element placement across various mobile screen sizes and devices. The exit button will be anchored in a specific location to guarantee easy access on all mobile devices.
+* Fixed-Element Exit Button: We're exploring the possibility of implementing a fixed-position exit button that remains visible on the screen regardless of scrolling, further enhancing its accessibility and safety function.
+* Fluid Text and Layout: We hope to optimize website elements like text size and layout to adapt dynamically to different screen resolutions. This will minimize the need for frequent zooming and ensure a comfortable user experience on all mobile devices.
