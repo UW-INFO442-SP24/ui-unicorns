@@ -27,6 +27,7 @@ The website provides a clear and easy-to-use navigation bar at the top of each p
 - **Identify Abuse:** This section provides educational resources about domestic violence. Users can explore statistics, expert insights, and survivor stories to gain knowledge about the issue and recognize the signs of abuse.
 - **Connect:** The website offers a platform for users to find confidential online support groups in Seattle. Users can then connect with others who understand their situation and build a network of strength and empathy.
 - **Share Your Story (Optional):** While complete anonymity is respected, the platform offers a safe space for users to share their stories via Google Forms (if they choose) and inspire hope in others.
+- **Activity Warning Pop-Up**: A pop-up appears once users first navigate to the page to warn them that their activity might be monitored. This allows users to be mindful and exit the website if they need to. 
 - **Exit Button:** A discreet exit button is available on the home page, allowing users to safely exit the website if they're in a situation where accessing this resource could put them at risk.
 
 ## Group Members
