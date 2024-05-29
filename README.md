@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Seattle Safe Haven
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The published site can be viewed here: https://ui-unicorns-b9qu.onrender.com/ 
 
-## Available Scripts
+## Our Mission
 
-In the project directory, you can run:
+Domestic violence is a pervasive issue impacting countless lives in King County. Fear, isolation, and lack of resources often trap victims in harmful situations. Our solution bridges this gap by creating a safe, confidential online space and connecting domestic violence victims to essential services in King County to build a safe and healing future. We achieve this by connecting individuals to essential resources, including shelters, medical care, and food banks. Our website provides a safe space to connect with confidential support groups and access educational resources to understand domestic violence, recognize the signs of abuse, and learn how to support survivors.
 
-### `npm start`
+**Problem Statement**: How can we best support victims of domestic violence within the greater Seattle area with safe, accessible resources for shelter, food, legal aid, and emotional support?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Seattle Safe Haven offers a variety of features designed to empower individuals on their journey towards safety and healing:
 
-### `npm test`
+**Navigation Bar:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The website provides a clear and easy-to-use navigation bar at the top of each page, allowing users to quickly access all features:
 
-### `npm run build`
+- Home
+- Find Help
+- Identify Abuse
+- Connect
+  
+**Features:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Find Help:** The website provides a map-based search function to locate nearby shelters, medical care, food banks, and other critical support services. Users can find the resources they need, exactly when they need them.
+- **Identify Abuse:** This section provides educational resources about domestic violence. Users can explore statistics, expert insights, and survivor stories to gain knowledge about the issue and recognize the signs of abuse.
+- **Connect:** The website offers a search function for confidential online support groups in Seattle. Users can connect with others who understand their situation and build a network of strength and empathy.
+- **Share Your Story (Optional):** While complete anonymity is respected, the platform offers a safe space for users to share their story (if they choose) and inspire hope in others.
+- **Exit Button:** A discreet exit button is availible on the home page, allowing users to safely exit the website if they're in a situation where accessing this resource could put them at risk.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Group Members
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Aldijana Sabavonic
+- Trushaa Ramanan
+- Caroline Wills
+- Emily Nguyen
+- Umme-Kulsum Darugar 
 
-### `npm run eject`
+## Developer Information
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Built with:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React JS
+- Bootstrap
+- Leaflet
+- HTML, CSS, JaveScript
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To run this code, first install all the npm packages. Then, go into the project folder and type the following command to install all npm packages:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+`npm install`
 
-## Learn More
+In order to run the application, type the following command:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+`npm start`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To cancel, use: 
 
-### Code Splitting
+`Ctrl + C`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**create-react-app:** The following link has all the commands that can be used with create-react-app https://github.com/facebook/create-react-app
 
-### Analyzing the Bundle Size
+**ReactJS:** Refer to https://reactjs.org/ to understand the concepts of ReactJS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## References
 
-### Making a Progressive Web App
+All images used in this project were retrieved from Google Images with a free Creative Commons License.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
