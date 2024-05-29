@@ -17,7 +17,6 @@
 }
 
 .hero h1 {
-  font-family: 'Montserrat', sans-serif;
   font-size: 40px;
   color: #05384B;
   font-weight: bold;
@@ -32,7 +31,6 @@
 
 header {
   font-size: 48px;
-  font-family: "Lora", serif;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
   font-style: normal;
@@ -42,12 +40,6 @@ header {
 
 .s-intro {
   font-size: 20px;
-}
-
-p,
-.s-intro,
-.button-learn {
-  font-family: "Arial", sans-serif;
 }
 
 p.s-intro {
@@ -70,10 +62,6 @@ p {
   font-weight: 500;
   line-height: 27.321px;
   letter-spacing: 0.84px;
-}
-
-h2 {
-  font-family: 'Montserrat', sans-serif;
 }
 
 .board {
@@ -172,7 +160,6 @@ h2 {
 }
 
 .groups h2 {
-  font-family: 'Montserrat', sans-serif;
   font-size: 23px;
   font-style: normal;
   font-weight: 600;
@@ -188,7 +175,6 @@ h2 {
 .learn {
   border-radius: 17px;
   border: none;
-  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -214,7 +200,15 @@ a {
 .story,
 .but,
 .section3,
-.group-info, .s-heading header, .section3 header  {
+.group-info, 
+.s-heading header, 
+.section3 header,  
+.hero h1,
+.learn,
+p,
+.s-intro,
+.button-learn,
+h2 {
   font-family: 'Montserrat', sans-serif;
 }
 
