@@ -1,33 +1,32 @@
-import React from 'react';
-import './navbar.css';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { Navbar, Nav, Container } from 'react-bootstrap'; 
+import './navbar.css';
 
-export default function Navbar(props) {
+export default function CustomNavbar(props) {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
+
     return (
-        <div className="navbar-container">
-            <img className="menu-icon" src="/img/website-icon.png" />
-
-            <div className="navbar-links">
-                <Link to="/home">
-                    <strong>Home</strong>
-
-                </Link>
-
-                <Link to="/findhelp">
-                    <strong>Find Help</strong>
-                </Link>
-
-                <Link to="/identify">
-                    <strong>Identify Abuse</strong>
-                
-                </Link>
-
-                <Link to="/connect">
-                    <strong>Connect</strong>
-                
-                </Link>
-                
-            </div>
-        </div>
+        <Navbar bg="#E07EC0" expand="lg" style={{ padding: '10px 0', marginBottom: '20px' }}>
+            <Container className="navbar-container">
+                <img className="menu-icon" src="/img/website-icon.png" alt="menu icon" onClick={toggleMenu} />
+                <Navbar.Toggle aria-controls="navbarNavAltMarkup" />
+                <Navbar.Collapse id="navbarNavAltMarkup">
+                    <Nav className="ml-auto">
+                        <Link className="nav-link" to="/home">Home</Link>
+                        <Link className="nav-link" to="/findhelp">Find Help</Link>
+                        <Link className="nav-link" to="/identify">Identify Abuse</Link>
+                        <Link className="nav-link" to="/connect">Connect</Link>
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     );
 }
+
+
+

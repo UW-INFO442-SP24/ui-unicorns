@@ -1,30 +1,44 @@
- .navbar-container {
+.menu-icon {
+    margin-right: 20px; 
+    width: 30px; 
+    height: auto;
+}
+
+.navbar {
     display: flex;
     justify-content: space-between;
-    font-family: 'Montserrat', sans-serif;
     align-items: center;
-    padding: 10px 50px;
-    background-color: #E5DED1; /* Light-colored background */
+    padding: 10px 20px;
+    background-color: #E5DED1;
 }
 
 .navbar-links {
     display: flex;
-    gap: 20px; /* Space between links */
+    gap: 20px; 
+    margin-left: auto;
 }
 
 .navbar-links div {
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
-    color: #333; /* Dark text color for contrast */
+    color: #55101f;
     padding: 5px 10px;
-    transition: background-color 0.3s;
+    transition: background-color 0.5s;
+    text-decoration: none;
 }
 
 .navbar-links div:hover {
-    background-color: #ddd; /* Lighter background on hover */
+    background-color: #b7b7b7; 
 }
 
-.menu-icon {
-    width: 30px; /* Size of the menu icon */
-    height: auto;
+@media (max-width: 768px) {
+    .navbar-links {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .ml-auto {
+        margin-left: auto;
+    }
 }
