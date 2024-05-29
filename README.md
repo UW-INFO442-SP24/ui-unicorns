@@ -25,8 +25,8 @@ The website provides a clear and easy-to-use navigation bar at the top of each p
 
 - **Find Help:** The website provides a map-based search function to locate nearby shelters, medical care, food banks, and other critical support services. Users can find the resources they need, exactly when they need them.
 - **Identify Abuse:** This section provides educational resources about domestic violence. Users can explore statistics, expert insights, and survivor stories to gain knowledge about the issue and recognize the signs of abuse.
-- **Connect:** The website offers a search function for confidential online support groups in Seattle. Users can connect with others who understand their situation and build a network of strength and empathy.
-- **Share Your Story (Optional):** While complete anonymity is respected, the platform offers a safe space for users to share their stories (if they choose) and inspire hope in others.
+- **Connect:** The website offers a platform for users to find confidential online support groups in Seattle. Users can then connect with others who understand their situation and build a network of strength and empathy.
+- **Share Your Story (Optional):** While complete anonymity is respected, the platform offers a safe space for users to share their stories via Google Forms (if they choose) and inspire hope in others.
 - **Exit Button:** A discreet exit button is available on the home page, allowing users to safely exit the website if they're in a situation where accessing this resource could put them at risk.
 
 ## Group Members
