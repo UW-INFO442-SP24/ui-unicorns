@@ -148,11 +148,9 @@ This test verifies that the map filter handles invalid user input gracefully (e.
 * The map and filter interface should function normally.
 * No filters should be applied or cleared unintentionally.
 
-## Feature 2: Security Alert and Safety Exit Button 
+### Feature 2: Security Alert and Safety Exit Button 
 
 **Test Cases:**
-
-** 
 
 This test verifies that the map filter functions correctly when a valid category button is clicked (e.g., shelter).
 
