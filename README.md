@@ -64,6 +64,12 @@ To cancel, use:
 
 **ReactJS:** Refer to https://reactjs.org/ to understand the concepts of ReactJS
 
+## User Personas
+To see user personas, please reference https://github.com/UW-INFO442-SP24/ui-unicorns/tree/main/deliverables/personas
+
+## Testing Protocol
+To see testing protocol, please reference https://github.com/UW-INFO442-SP24/ui-unicorns/blob/main/deliverables/testing_protocol/testing.md 
+
 ## References
 
 All images used in this project were retrieved from Google Images with a free Creative Commons License.
