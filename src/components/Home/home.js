@@ -26,7 +26,7 @@ export default function Home(props) {
                                 <div class="main-image-container">
                                     <img
                                         loading="lazy"
-                                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/641a86bec7039646e09431190d7066c82fb185474813d7b2ef535b7469bbf624?apiKey=51c46254fab5448ea219e1641332abb8&"
+                                        src="/img/logo-home.png"
                                         class="main-image"
                                         alt="logo"
                                     />

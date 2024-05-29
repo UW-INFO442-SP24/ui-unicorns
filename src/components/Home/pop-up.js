@@ -1,37 +1,49 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
-// Security Alert: Pop-Up Button Component
- const PopButton = () => {
-    const [isOpen, setIsOpen] = useState(false);
-  
-    const handleClick = () => {
-      setIsOpen(!isOpen);
-    };
-  
-    return (
-      <div className={`pop-button-container ${isOpen ? 'open' : ''}`}>
-        {isOpen && (
-          <div className="security-alert">
-            <div className='alert-text-first'>
-            Here's the thing: Your internet activity might be monitored. This can be a concern, 
-            especially if you're seeking help with domestic violence. <br/>
-            </div>
+const PopButton = () => {
+  const [isOpen, setIsOpen] = useState(false);
 
-            <div className='alert-text-second'>
-            If you’re concerned, use a safe device, clear your browsing history, or try going on an i
-            ncognito browser. Click here to learn more about safe web browsing. <br/>
-            </div>
+  useEffect(() => {
+    // Automatically open the popup when the component mounts
+    setIsOpen(true);
+  }, []);
 
-            <div className='alert-text-third'>
-            Click the <strong>“Exit”</strong> button in the upper right hand corner to leave the website
-            immediately <br />
-            </div>
-            
-            <button className='alert-button' onClick={handleClick}>Ok</button>
-          </div>
-        )}
-      </div>
-    );
+  const handleClose = () => {
+    setIsOpen(false);
   };
+
+  return (
+    <div className={`popup-container ${isOpen ? 'open' : ''}`}>
+      {isOpen && (
+        <>
+          <div className="popup-overlay" onClick={handleClose} />
+          <div className="popup-content" onClick={(e) => e.stopPropagation()}>
+            <div className="alert-header">
+              Here's the thing
+            </div>
+            <div className="alert-text-first">
+              Your internet activity might be monitored. This can be a concern, especially if you're seeking help with domestic violence.
+            </div>
+            <div className="alert-text-second">
+              If you’re concerned, use a safe device, clear your browsing history, or try going on an incognito browser.
+            </div>
+            <div className="alert-text-third">
+              Click <a className="popup-link" href="https://www.rainn.org/articles/safe-web-browsing" target="blank"><strong><u>here</u></strong> </a>
+              to learn more about safe web browsing.
+            </div>
+
+            <div className="alert-text-fourth">
+              Click the “<b>Exit</b>” button in the upper right-hand corner to leave the website immediately
+            </div>
+
+            <div className="popup-button-container">
+              <button className="popup-button" onClick={handleClose}>OK</button>
+            </div>
+          </div>
+        </>
+      )}
+    </div>
+  );
+};
 
 export default PopButton;
