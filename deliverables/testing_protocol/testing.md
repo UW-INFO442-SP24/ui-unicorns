@@ -1,6 +1,6 @@
 # Testing Protocol
 
-Our team created a series of tests that to perform in order to verify that Seattle Safe Haven meets our functional requirements.
+Our team created a series of tests that to perform in order to verify that Seattle Safe Haven meets functional requirements.
 
 ##  General Test Practices
 
@@ -16,7 +16,7 @@ Explanation of Homepage.test.js
 
 ## Unit Tests
 
-### Resource Map Filter
+### Feature 1: Resource Map Filter
 
 **Feature:** Filter resources on the map by category (shelter, legal aid, etc.) and accessibility needs (mobility, hearing, vision).
 
@@ -148,6 +148,24 @@ This test verifies that the map filter handles invalid user input gracefully (e.
 * The map and filter interface should function normally.
 * No filters should be applied or cleared unintentionally.
 
-## Known Bugs
+## Feature 2: Security Alert and Safety Exit Button 
 
-List bugs here 
+**Test Cases:**
+
+** 
+
+This test verifies that the map filter functions correctly when a valid category button is clicked (e.g., shelter).
+
+**Input:**
+
+* User clicks the "Shelter" button on the map filter.
+
+**Output:**
+
+* The map displays only shelters within the selected area.
+* Any previously selected categories or accessibility filters are cleared.
+
+**Pass Criteria:**
+
+* The map markers should only represent shelters.
+* No markers from other categories (legal aid, medical care, etc.) should be displayed.
