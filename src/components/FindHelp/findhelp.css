@@ -1,9 +1,9 @@
 .find-help-image {
-    width: 50%; 
+    width: 50%;
     height: auto;
-    opacity: 1; 
+    opacity: 1;
 }
-  
+
 .find-help-text {
     width: 50%;
     font-size: px;
@@ -147,8 +147,19 @@
     }
 }
 
-.find-help-container, .map-title, 
-.find-help-subtitle, .find-help-description, .card-body,
+.find-help-container,
+.map-title,
+.find-help-subtitle,
+.find-help-description,
+.card-body,
 .card-title {
     font-family: Montserrat;
+}
+
+/* Exit Button positioning styling on Find Help Page */
+.exit-btn-find-help {
+    position: fixed;
+    top: 23%;
+    right: 10px;
+    z-index: 999;
 }

@@ -1,21 +1,27 @@
 import React from 'react';
 import './connect.css';
+import ExitButton from '../Home/exit-btn';
 
 export default function Connect(props) {
-  return(
-  <div class="container">
-    <div class="hero">
-      <div class="hero-text">
-        <h1>Supports start here</h1>
-        <p>Connect with other people who face similar challenges</p>
+  return (
+    <div class="container">
+      <div class="hero">
+        <div class="hero-text">
+          <h1>Supports start here</h1>
+          <p>Connect with other people who face similar challenges</p>
+        </div>
+        <img src="/img/hands.jpeg" alt="Support group hands together" class="hero-image" />
+
+        {/* Exit Button */}
+        <div className='exit-btn-connect'>
+          <ExitButton />
+        </div>
       </div>
-      <img src="/img/hands.jpeg" alt="Support group hands together" class="hero-image"/>
-    </div>
 
       <div>
         <header>Shared Experiences</header>
         <p class="s-intro">
-        This space is dedicated to the voices of those who have encountered domestic violence. Here, you can both share your own story and read about the journeys of others towards safety and healing. Use the form provided in the 'Share your story' button to submit your experience—choose to remain anonymous. Each month, we highlight two powerful stories from our community on the bulletin board, each with an external link for further resources. Your story matters, and together, we can illuminate the path to recovery and empowerment.
+          This space is dedicated to the voices of those who have encountered domestic violence. Here, you can both share your own story and read about the journeys of others towards safety and healing. Use the form provided in the 'Share your story' button to submit your experience—choose to remain anonymous. Each month, we highlight two powerful stories from our community on the bulletin board, each with an external link for further resources. Your story matters, and together, we can illuminate the path to recovery and empowerment.
         </p>
 
         <div class="board row align-items-center text-center">
@@ -41,8 +47,8 @@ export default function Connect(props) {
         </div>
 
         <div class="but-con">
-        <a href="https://forms.gle/oDdQjj5kq5pr69oA6" className="but-con-link">
-          <button class="but">Share your story</button>
+          <a href="https://forms.gle/oDdQjj5kq5pr69oA6" className="but-con-link">
+            <button class="but">Share your story</button>
           </a>
         </div>
       </div>
@@ -50,7 +56,7 @@ export default function Connect(props) {
       <div class="section3">
         <header>Seattle Support Groups</header>
         <p class="s-intro">
-            Connect with Seattle's community support groups offering guidance, shared experiences, and a healing space. Click to find the right group for you.
+          Connect with Seattle's community support groups offering guidance, shared experiences, and a healing space. Click to find the right group for you.
         </p>
         <div class="group-container">
           <div class="groups">

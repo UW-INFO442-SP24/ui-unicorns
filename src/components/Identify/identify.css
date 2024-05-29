@@ -157,3 +157,10 @@ p {
 .identify-abuse-page {
     font-family: Montessarat;
 }
+
+/* Exit Button positioning styling on Identify Abuse Page */
+.exit-btn-identify {
+    position: fixed;
+    top: 23%;
+    right: 10px;
+}

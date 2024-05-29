@@ -1,6 +1,7 @@
 import React from 'react';
 import './home.css';
 import PopButton from './pop-up.js';
+import ExitButton from './exit-btn.js';
   
 
 export default function Home(props) {
@@ -33,16 +34,10 @@ export default function Home(props) {
                                 </div>
 
                                 {/* Exit Button - Redirects user to Google */}
-                                <div class="thumbnail-container">
-                                    <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
-                                        <img
-                                            loading="lazy"
-                                            src="/img/exit-btn.png"
-                                            class="thumbnail"
-                                            alt="thumbnail"
-                                        />
-                                    </a>
+                                <div className='exit-btn'>
+                                    <ExitButton />
                                 </div>
+
                             </div>
                         </div>
                     </div>
