@@ -151,10 +151,8 @@ This test verifies that the map filter handles invalid user input gracefully (e.
 **8. Security Alert Test Cases:**
 This test verifies that a security alert automatically appears when a user logs onto the Seattle Safe Haven website to help protect users who might be in vulnerable situations. The security alert also provides users more resources and information on safe internet browsing. 
 
-
 **Input:**
 - User logs onto the Seattle Safe Haven website 
-
 
 **Output:**
 - They will be presented with a security alert and by pressing the ‘Ok’ button they will be directed to the Seattle Safe Haven home page
@@ -162,7 +160,7 @@ This test verifies that a security alert automatically appears when a user logs 
 **Pass Criteria:**
 - The security alert automatically appears when the user opens up the website and when the ‘Ok’ button is clicked the security alert will close. 
 
-**8. Quick Escape/Exit Button Test Cases:**
+**9. Quick Escape/Exit Button Test Cases:**
 This test seeks to make sure that the ‘Exit’ button present on the Seattle Safe Haven website pages and when pressed will automatically redirects the user to Google. The ‘Exit’ button ensures user safety and trust with the Seattle Safe Haven website by providing users with an extra layer of security.
 
 **Input:**
