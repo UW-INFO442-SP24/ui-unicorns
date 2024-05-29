@@ -146,25 +146,37 @@ This test verifies that the map filter handles invalid user input gracefully (e.
 * The map and filter interface should function normally.
 * No filters should be applied or cleared unintentionally.
 
-### Feature 2: Security Alert and Safety Exit Button 
+### Feature 2: Security Alert and Quick Escape Button
 
-**Test Cases:**
+**8. Security Alert Test Cases:**
+This test verifies that a security alert automatically appears when a user logs onto the Seattle Safe Haven website to help protect users who might be in vulnerable situations. The security alert also provides users more resources and information on safe internet browsing. 
 
-This test verifies that the map filter functions correctly when a valid category button is clicked (e.g., shelter).
 
 **Input:**
+- User logs onto the Seattle Safe Haven website 
 
-* User clicks the "Shelter" button on the map filter.
 
 **Output:**
-
-* The map displays only shelters within the selected area.
-* Any previously selected categories or accessibility filters are cleared.
+- They will be presented with a security alert and by pressing the ‘Ok’ button they will be directed to the Seattle Safe Haven home page
 
 **Pass Criteria:**
+- The security alert automatically appears when the user opens up the website and when the ‘Ok’ button is clicked the security alert will close. 
 
-* The map markers should only represent shelters.
-* No markers from other categories (legal aid, medical care, etc.) should be displayed.
+**8. Quick Escape/Exit Button Test Cases:**
+This test seeks to make sure that the ‘Exit’ button present on the Seattle Safe Haven website pages and when pressed will automatically redirects the user to Google. The ‘Exit’ button ensures user safety and trust with the Seattle Safe Haven website by providing users with an extra layer of security.
+
+**Input:**
+- User presses the ‘Exit’ button on the any of Seattle Safe Haven website pages
+
+
+**Output:**
+- The user will automatically be redirected to Google 
+
+**Pass Criteria:**
+- The ‘Exit’ button redirects users to Googles from the Seattle Safe Haven website
+- The ‘Exit’ button is present throughout the Seattle Safe Haven including the Home, Connect, Find Help, and Identify Abuse pages. 
+
+
 
 ##  Known Bugs and Solutions
 
