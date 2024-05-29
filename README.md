@@ -66,4 +66,6 @@ To cancel, use:
 
 All images used in this project were retrieved from Google Images with a free Creative Commons License.
 
+All resources for the map were sourced from Crisis Connections' [Emergency Shelter](https://www.crisisconnections.org/wp-content/uploads/2024/04/6.-ESB-Emergency-Shelters-2nd-Quarter-2024-3.pdf) and [Medical Services](https://www.crisisconnections.org/wp-content/uploads/2024/04/5.ESB-Seattle-Health-Services-2nd-Quarter-2024-3.pdf) Databases. All other resources were sources from 211 Washington's [Resource Map](https://search.wa211.org/en/search?query=RP-1400.2500&query_label=General+Counseling+Services&query_type=taxonomy&location=King+County%2C+Washington%2C+United+States&coords=-122.297622%2C47.59526). 
+
 
