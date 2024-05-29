@@ -48,7 +48,7 @@ Built with:
 
 To run this code, first install all the npm packages. Then, go into the project folder and type the following command to install all npm packages:
 
-`npm install`
+`npm install`\
 `npm i react-leaflet`
 
 To run the application, type the following command:
