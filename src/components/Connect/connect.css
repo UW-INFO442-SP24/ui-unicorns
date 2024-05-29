@@ -156,13 +156,13 @@ h2 {
   border-left-style: solid;
   border-color: #05384B;
   border-left-width: 30px;
-  border-radius: 10px;
-
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   background-color: #A9C7D2;
-  height: 170px;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box; 
 }
 
 .group-info {
@@ -224,4 +224,25 @@ a {
 
 .hero-text header {
   color: #72172B;
+}
+
+@media (max-width: 768px) {
+  .groups {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .group-info {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .join {
+    padding-left: 0;
+    margin-right: 0;
+  }
+
+  h2, p {
+    font-size: 16px;
+  }
 }
