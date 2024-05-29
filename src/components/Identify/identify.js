@@ -22,14 +22,17 @@ export default function Identify(props) {
             </div>
             <br></br>
 
-            <div className='IdentifyButtons'>
-                <button className="IdentifyButton">
-                    <Link to="/identify"><b>Forms of Abuse</b></Link>
-                </button>
-                <button className="IdentifyButton">
-                    <Link to="/identifyexamples">Examples</Link>
-                </button>
+            <div className='BoxButton'>
+                <div className='IdentifyButtons'>
+                    <button className="IdentifyButton">
+                        <Link to="/identify"><b>Forms of Abuse</b></Link>
+                    </button>
+                    <button className="IdentifyButton">
+                        <Link to="/identifyexamples">Examples</Link>
+                    </button>
+                </div>
             </div>
+
             <div className='Physical'>
                 <h2>Physical Abuse</h2>
                 <p>Involves the use of physical violence, or threats of it, to maintain power over an individual. Because of this, survivors are afraid and uncertain when more abuse will occur. This often reinforces the regular use of other, more subtle, types of abuse.</p>
